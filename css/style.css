@@ -1,37 +1,51 @@
-*{
-    /* width: ancho; */
-    /* height: alto; */
+/* *{
+    width: ancho;
+    height: alto;
     border: 2px solid red;
     padding: 10px;
     margin: 10px; 
-}
+} */
+
 body {
   font-family: "Allerta", sans-serif;
+  margin: 0;
 }
 .titulo {
   font-size: 70px;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 0px;
+  margin-top: 80px;
 }
 
 .title-a {
   font-size: 24px;
+  margin-top: 0px;
 }
 
 .title-b {
   font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.portada {
+  background-image: url("../images/background.png");
+  color: white;
+  padding: 20px;
+  width: 800px;
+  margin: auto;
+}
+.portada button {
+  margin-bottom: 70px;
 }
 .guitarras h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 35px;
 }
 
-.portada {
-  background-image: url("../images/background.png");
-  color: white;
-}
-
 .guitarras {
   color: #1f313c;
+  width: 800px;
+  margin: auto;
 }
 
 .menu {
@@ -39,10 +53,16 @@ body {
   display: inline-block;
 }
 
-.menu li{
-    display: inline-block;
+.menu li {
+  display: inline-block;
+  margin-left: 30px;
 }
 
-.logotipo{
-    display: inline-block;
+.logotipo {
+  display: inline-block;
+}
+
+.header {
+  width: 800px;
+  margin: auto;
 }
