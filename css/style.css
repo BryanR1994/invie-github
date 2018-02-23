@@ -31,8 +31,6 @@ body {
   background-image: url("../images/background.png");
   color: white;
   padding: 20px;
-  width: 800px;
-  margin: auto;
 }
 .portada button {
   margin-bottom: 70px;
@@ -44,8 +42,6 @@ body {
 
 .guitarras {
   color: #1f313c;
-  width: 800px;
-  margin: auto;
 }
 
 .menu {
@@ -62,7 +58,7 @@ body {
   display: inline-block;
 }
 
-.header {
+.contenedor{
   width: 800px;
   margin: auto;
 }
