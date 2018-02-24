@@ -41,7 +41,26 @@ body {
 }
 
 .guitarras {
-  color: #1f313c;
+  color: #1f313c;  
+}
+
+.contenedor-guitarra-a{
+  padding-left: 20px;
+}
+
+.contenedor-guitarra-b{
+  margin-left: 370px;
+}
+
+.guitarra{
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+  border: 1px solid #1f313c;
+}
+
+.guitarra ol{
+  padding: 0;
 }
 
 .menu {
@@ -61,4 +80,12 @@ body {
 .contenedor{
   width: 800px;
   margin: auto;
+}
+
+.derecha{
+  float: right;
+}
+
+.izquierda{
+  float: left;
 }
