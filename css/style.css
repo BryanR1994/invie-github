@@ -173,3 +173,23 @@ body {
 .intereses label{
   font-size: 12px;
 }
+
+table{
+  width: 100%;
+}
+
+th{
+  text-align: left;
+  background: #273b47;
+  color: white;
+  padding: 10px 20px;
+}
+
+td{
+  padding: 20px;
+}
+
+table, td, th{
+  border: #273b47 1px solid;
+  border-collapse: collapse;
+}
