@@ -24,7 +24,7 @@ body {
 
 .title-b {
   font-size: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
 }
 
 .portada {
@@ -58,7 +58,7 @@ body {
   /* overflow: hidden; */
   border: 1px solid #1f313c;
   position: relative;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 
 .guitarra ol{
@@ -101,4 +101,29 @@ body {
 
 .header{
   position: relative;
+}
+
+.button{
+  border-radius: 5px;
+  background: #fd324e;
+  color: white;
+  border: none;
+  padding: 7px;
+}
+
+.footer{
+  background: #273b47;
+}
+
+.contacto img{
+  display: block;
+}
+
+.contacto span{
+  display: block;
+}
+
+.contacto a{
+  color: white;
+  text-decoration: none;
 }
