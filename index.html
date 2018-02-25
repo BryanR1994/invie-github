@@ -73,13 +73,43 @@
                     <span> +58-424-1234567</span>
                 </a>
                 <a href="mailto:">
-                    <Strong>E-mail</Strong>
+                    <strong>E-mail</strong>
                     <span> Contacto@invie.com</span>
                 </a>
             </div>
-            <div class="formulario">
-                formularo
-            </div>
+            <form class="formulario">
+                <label for="Nombre">Nombre</label>
+                <input type="text" required placeholder="Nombre" id="Nombre" name="nombre">
+                <label for="Email">Email</label>
+                <input type="email" required id="Email" placeholder="TuEmail@Dominio.com" name="email">
+                <div class="sexo">
+                    <label for="Femenino">
+                        <input type="radio" id="Femenino" name="sexo" value="femenido">Femenino
+                    </label>
+                    <label for="Masculino">
+                        <input type="radio" id="Masculino" name="sexo" value="masculino">Masculino
+                    </label>
+                </div>
+                <div class="intereses">
+                    <label for="Cotizacion">
+                        <input type="checkbox" name="intereses" id="Cotizacion" value="cotizacion">Cotizacion
+                    </label>
+                    <label for="Reclamos">
+                        <input type="checkbox" name="intereses" id="Reclamos" value="reclamos">Reclamos
+                    </label>
+                    <label for="Comentarios">
+                        <input type="checkbox" name="intereses" id="Comentarios" value="comentarios">Comentarios
+                    </label>
+                    <label for="Otros">
+                        <input type="checkbox" name="intereses" id="Otros" value="otros">Otros
+                    </label>
+                </div>
+                <div>
+                    <label for="comentarios">Comentarios</label>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+                    <input type="submit" value="Enviar" class="button">
+                </div>
+            </form>
         </div>
     </footer>
 </body>

@@ -24,7 +24,8 @@ body {
 
 .title-b {
   font-size: 50px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
+  margin-top: 70px;
 }
 
 .portada {
@@ -89,14 +90,14 @@ body {
 .derecha{
   float: right;
   position: relative;
-  top: -127px;
+  top: -106px;
 
 }
 
 .izquierda{
   float: left;
   position: relative;
-  top: 80px;
+  top: 40px;
 }
 
 .header{
